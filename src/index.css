@@ -66,3 +66,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+body {
+  margin: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: brown;
+}
+
+.main {
+  background-color: rgb(209, 209, 184);
+}
+
+.footer {
+  background-color: brown;
+}

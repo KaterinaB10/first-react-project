@@ -1,15 +1,22 @@
-import "./App.css";
+import "./index.css";
 
 function App() {
   // return <h1>Hello</h1>;
   return (
     // React.Fragment
-    <>
-      <h1>Hello</h1>
-      <h1>Hello</h1>
-      <h1>Hello</h1>
-      <h1>Hello</h1>
-    </>
+    <div className="app">
+      <header className="header">
+        <h1>Hello</h1>
+      </header>
+
+      <main className="main">
+        <h2>Hello</h2>
+      </main>
+
+      <footer className="footer">
+        <h1>Hello</h1>
+      </footer>
+    </div>
   );
 }
 
